@@ -102,11 +102,11 @@ h1{
   margin-top: 6.75vw;
   line-height: 0.8;
   margin-bottom: 3vw;
-  text-shadow: -2px 3px 3px rgba(0, 0, 0, 1);
+  text-shadow: -1px 1px 1px rgba(0, 0, 0, 1);
 }
 h1 span{
   font-size:2.8586vw;
-  text-shadow: -2px 3px 3px rgba(0, 0, 0, 0);
+  text-shadow: -1px 1px 1px rgba(0, 0, 0, 0);
 }
 
 .hOne{
@@ -145,13 +145,14 @@ h1 span{
   transition: 0.5s;
   width: 5.613vw;
   background: rgba(255,255,255,0.5);
-  height: 63vw;
-  position: absolute;
+  height: 100vh;
+  position: fixed;
   right: 0;
   top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 
 .getStartedNow:hover{
@@ -164,7 +165,7 @@ h1 span{
   font-family: 'Sports World-Regular',serif;
   writing-mode: tb-rl;
   font-size: 3.742vw;
-  padding-bottom: 8vw;
+  /* padding-bottom: 8vw; */
 }
 
 /* floatingDiv floatingDiv */
